@@ -22,3 +22,10 @@ jhipster:
             audience:
                 - account
                 - api://default
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          oidc:
+            issuer-uri: http://keycloak.finava.breathebinary.com/auth/realms/jhipster
