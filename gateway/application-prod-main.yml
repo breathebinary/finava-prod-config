@@ -1,6 +1,6 @@
 
 jhipster:
-        allowed-origins: "https://backoffice.breathebinary.com"
+        allowed-origins: "http://backoffice.breathebinary.com"
         allowed-methods: "*"
         allowed-headers: "*"
         exposed-headers: "Authorization,Link,X-Total-Count"
