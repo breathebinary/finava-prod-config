@@ -4,7 +4,7 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/auth/realms/jhipster
+            issuer-uri: http://keycloak.finava.breathebinary.com/auth/realms/jhipster
         registration:
           oidc:
             client-id: jhipster-registry
