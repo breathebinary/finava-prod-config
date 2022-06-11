@@ -1,5 +1,6 @@
 
 jhipster:
+    cors:
         allowed-origins: "http://backoffice.breathebinary.com"
         allowed-methods: "*"
         allowed-headers: "*"
