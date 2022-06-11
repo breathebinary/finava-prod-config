@@ -1,10 +1,5 @@
 
 jhipster:
-    security:
-        authentication:
-            jwt:
-                secret: bXktc2VjcmV0LXRva2VuLXRvLWNoYW5nZS1pbi1wcm9kdWN0aW9uLWFuZC10by1rZWVwLWluLWEtc2VjdXJlLXBsYWNl
-    cors:
         allowed-origins: "https://backoffice.breathebinary.com"
         allowed-methods: "*"
         allowed-headers: "*"
