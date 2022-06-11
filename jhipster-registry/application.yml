@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          oidc:
+            issuer-uri: http://localhost:9080/auth/realms/jhipster
+        registration:
+          oidc:
+            client-id: jhipster-registry
+            client-secret: jhipster-registry
+            scope: openid,profile,email
