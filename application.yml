@@ -6,16 +6,6 @@
 configserver:
   name: JHipster Registry config server
   status: Connected to the JHipster Registry config server, using https://github.com/breathebinary/finava-prod-config !
-  
-
-jhipster:
-  cors:
-    allowed-origins: "http://backoffice.breathebinary.com"
-    allowed-methods: "*"
-    allowed-headers: "*"
-    exposed-headers: "Authorization,Link,X-Total-Count"
-    allow-credentials: true
-    max-age: 1800
 
 spring:
   security:
