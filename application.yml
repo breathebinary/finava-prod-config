@@ -7,21 +7,6 @@ configserver:
     name: JHipster Registry config server
     status: Connected to the JHipster Registry config server, using https://github.com/breathebinary/finava-prod-config !
 
-# Default JWT secret token (to be changed in production!)
-jhipster:
-    cors:
-        allowed-origins: "http://backoffice.breathebinary.com"
-        allowed-methods: "*"
-        allowed-headers: "*"
-        exposed-headers: "Authorization,Link,X-Total-Count"
-        allow-credentials: true
-        max-age: 1800
-    security:
-        content-security-policy: "default-src 'self'; frame-src 'self' data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://storage.googleapis.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:"
-        oauth2:
-            audience:
-                - account
-                - api://default
 spring:
   security:
     oauth2:
