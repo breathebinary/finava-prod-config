@@ -13,4 +13,4 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://keycloak.finava.net/auth/realms/jhipster
+            issuer-uri: https://keycloak.finava.net/auth/realms/jhipster
