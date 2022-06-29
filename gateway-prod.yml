@@ -1,6 +1,6 @@
 jhipster:
   cors:
-    allowed-origins: "https://backoffice.finava.net"
+    allowed-origins: "https://backoffice.finava.net,http://localhost:9999"
     allowed-methods: "*"
     allowed-headers: "*"
     exposed-headers: "Authorization,Link,X-Total-Count"
